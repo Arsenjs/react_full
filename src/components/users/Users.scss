@@ -1,0 +1,56 @@
+.users {
+  border: 1px solid red;
+  gap: 35px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  > button {
+    width: 100px;
+    height: 50px;
+  }
+  &-front {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    width: 250px;
+    height: 350px;
+    border: 1px solid grey;
+    transition: 0.5s;
+    
+    > h3 {
+      text-align: center;
+      font-size: 35px;
+    }
+    > p {
+      font-size: 20px;
+      color: grey;
+    }
+    > button {
+      width: 150px;
+      height: 50px;
+      border-radius: 30px;
+      margin-bottom: 0;
+    }
+    &:hover {
+      box-shadow: 10px 10px 12px grey;
+    }
+  }
+  &-back {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    width: 250px;
+    height: 350px;
+    border: 1px solid grey;
+    transition: 0.5s;
+  }
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+}

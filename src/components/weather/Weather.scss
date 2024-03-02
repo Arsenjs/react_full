@@ -1,0 +1,49 @@
+.weather {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &-search {
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    > input {
+      background-color: beige;
+      padding: 10px;
+      border-radius: 30px;
+      width: 100%;
+      height: 50px;
+    }
+    > button {
+      background-color: beige;
+      width: 150px;
+      height: 48px;
+      font-size: 24px;
+      border-radius: 30px;
+    }
+  }
+  &-result {
+    width: 100%;
+    min-width: 200px;
+    > div {
+      padding-top: 15px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-direction: column;
+      width: 300px;
+      height: 300px;
+      margin: auto;
+      background-color: rgb(0, 255, 255);
+      border-radius: 10px;
+    }
+  }
+}
